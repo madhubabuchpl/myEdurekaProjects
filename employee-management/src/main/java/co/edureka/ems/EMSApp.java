@@ -11,7 +11,7 @@ public class EMSApp {
 	
 	public static void main(String[] args) throws Exception {
 		EmployeeService service = new EmployeeServiceImpl();
-		
+		// Code to get employee details from DB
 		while(true) {
 			System.out.println("1. New Employee");
 			System.out.println("2. Update Employee" );
